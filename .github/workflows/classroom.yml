@@ -1,0 +1,32 @@
+name: GitHub Classroom Workflow
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  autograding:
+    name: Autograding
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout kódu
+        uses: actions/checkout@v4
+
+      - name: Nastavení Pythonu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Spuštění autograderu
+        run: python .github/autograder/run_tests.py
