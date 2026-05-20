@@ -1,0 +1,4 @@
+První číslo: Druhé číslo: Součet: 14.0
+Rozdíl: 6.0
+Součin: 40.0
+Podíl: 2.5
