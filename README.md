@@ -1,6 +1,6 @@
 # P1 – Proměnné a datové typy
 
-**Předmět:** Informatika / Python &nbsp;|&nbsp; **Délka:** 45 min &nbsp;|&nbsp; **Ročník:** 2. S (SPSE)
+**Předmět:** Informatika / Python &nbsp;|&nbsp; **Délka:** 45 min &nbsp;|&nbsp;
 
 ---
 
